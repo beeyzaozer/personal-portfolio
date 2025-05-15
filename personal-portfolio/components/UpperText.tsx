@@ -22,7 +22,7 @@ const Marquee: React.FC<MarqueeProps> = ({
       <div className="marquee__group" style={animStyle}>
         {content}
       </div>
-      <div className="marquee__group" style={animStyle}>
+      <div className="marquee__group" style={animStyle} aria-hidden={true}>
         {content}
       </div>
     </div>
