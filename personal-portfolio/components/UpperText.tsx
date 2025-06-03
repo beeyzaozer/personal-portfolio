@@ -18,7 +18,7 @@ const Marquee: React.FC<MarqueeProps> = ({
   ))
 
   return (
-    <div className="marquee h-[20cm] bg-gray-900">
+    <div className="marquee bg-red-300">
       <div className="marquee__group" style={animStyle}>
         {content}
       </div>
