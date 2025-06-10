@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="z-50 w-full px-4 py-3">
       <div className="max-w-6xl mx-auto flex items-center justify-between bg-white/10 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg border border-white/20">
-        <h1 className="text-xl font-bold text-white">Beyza Özer</h1>
+        <h1 className="text-red-300 text-shadow-red-400 font-extrabold text-2xl">Beyza Özer</h1>
 
         <div className="md:hidden">
           <button

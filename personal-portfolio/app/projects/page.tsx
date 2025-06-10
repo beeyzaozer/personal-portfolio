@@ -14,10 +14,19 @@ function Projects() {
     //   link: "link"
     // },
     {
-      title: "test2"
+      title: "PaybyMe"
     },
     {
-      title: "test3"
+      title: "Skyalp"
+    },
+    {
+      title: "Skyalp"
+    },
+    {
+      title: "Skyalp"
+    },
+    {
+      title: "Skyalp"
     },
   ]
 

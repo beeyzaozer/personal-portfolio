@@ -19,10 +19,10 @@ const Marquee: React.FC<MarqueeProps> = ({
 
   return (
     <div className="marquee bg-red-300">
-      <div className="marquee__group" style={animStyle}>
+      <div className="marquee__group font-extrabold" style={animStyle}>
         {content}
       </div>
-      <div className="marquee__group" style={animStyle} aria-hidden={true}>
+      <div className="marquee__group font-extrabold" style={animStyle} aria-hidden={true}>
         {content}
       </div>
     </div>

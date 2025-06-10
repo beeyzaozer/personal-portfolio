@@ -26,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr">
-      <body className={`relative min-h-screen overflow-hidden bg-gradient-to-br from-black-400 via-black to-black text-white ${geistSans.variable} ${geistMono.variable} ${pressStart2P.variable} antialiased`}>
+      <body className={`relative max-h-screen overflow-hidden bg-gradient-to-br from-black-400 via-black to-black text-white ${geistSans.variable} ${geistMono.variable} ${pressStart2P.variable} antialiased`}>
         <div className="absolute inset-0 bg-grid-pattern opacity-70 z-0 pointer-events-none" />
 
         <div className="absolute top-10 right-2/3 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse pointer-events-none" />
@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           />
         </div>
         <Navbar />
-        <div className="z-10 relative min-h-[calc(100vh-25px)] px-4">
+        <div className="z-10 relative min-h-[calc(100vh-25px)] px-10">
           {children}
         </div>
       </body>
