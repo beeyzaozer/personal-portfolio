@@ -7,7 +7,7 @@ const navItems = [
   { href: '/', label: 'Ana Sayfa' },
   { href: '/about', label: 'Hakkımda' },
   { href: '/projects', label: 'Projeler' },
-  { href: '/contact', label: 'İletişim' },
+  { href: '/contact-me', label: 'İletişim' },
 ];
 
 export default function Navbar() {
