@@ -32,18 +32,6 @@ export default function ContactForm() {
    <div className="max-w-6xl mx-auto">
      <h2 className="text-3xl font-bold mb-4 mt-4">Contact Me</h2>
     <section className="max-w-5xl mx-auto px-4 py-12 text-white bg-zinc-900 rounded-2xl mt-14">
-      {/* <div className="mb-10">
-        <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-        <p className="text-gray-400 mb-2">yeg2799@gmail.com</p>
-        <div className="flex gap-4 mt-2">
-          <a href="#" target="_blank"><Github /></a>
-          <a href="#" target="_blank"><Linkedin /></a>
-          <a href="#" target="_blank"><Instagram /></a>
-        </div>
-      </div> */}
-
-     
-
       <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
         <div>
           <input
